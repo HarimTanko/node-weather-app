@@ -25,14 +25,14 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'weather',
+        title: 'Weather',
         name: 'Yogi'
     })
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'about Me',
+        title: 'About Me',
         name: 'Yogi'
     })
 })
